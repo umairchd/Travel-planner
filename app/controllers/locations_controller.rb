@@ -4,6 +4,7 @@ class LocationsController < ApplicationController
 
   def index
     render json: { locations: @user.locations }, status: :ok
+
   end
 
   def create
